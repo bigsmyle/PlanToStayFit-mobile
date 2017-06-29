@@ -1,0 +1,13 @@
+page-login {
+    @media screen and (min-width:340px) and (max-width:780px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+      width: 300px;
+    margin: auto;
+    }
+     @media screen and  (min-width:781px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+.box{
+    width: 400px;
+    margin: auto;
+}
+}
+
+}

@@ -1,0 +1,32 @@
+<!--
+  Generated template for the RegisterPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>PlanToStayFit</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<div class="content box">
+<h1 class="form-signin-heading">
+    Register 
+</h1>
+
+<form [formGroup]="theForm" (ngSubmit)="onSubmit()" #registerForm="ngForm">
+    <input type="text" class="form-control " formControlName="name" required placeholder="name"/> 
+     <input type="email" class="form-control " formControlName="email" required placeholder="Email"/> 
+    <input type="text" class="form-control " formControlName="username" required placeholder="Username"/> 
+     <input class="form-control " formControlName="password" required type="password" placeholder="password"/> 
+    <br>
+    <br>
+     <button class="btn btn-primary" type="submit" [disabled]="!registerForm.form.valid">Register</button>
+     </form>
+</div>
+</ion-content>

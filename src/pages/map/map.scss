@@ -1,0 +1,64 @@
+page-map {
+
+@media screen and (min-width:340px) and (max-width:780px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+agm-map  {
+  height: 300px;
+  width: 300px;
+  margin: auto ;
+}
+
+.smallbox{
+  height: 300px;
+  padding: auto;
+  width: 320px;
+}
+form{
+  margin: auto;
+  margin-left: 5px;
+ width: 230px;  
+}
+.searchLocation{
+  margin: auto;
+  margin-left: 5px;
+ width: 230px;
+}
+}
+
+
+
+
+ @media screen and  (min-width:781px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+.box{
+   position: static;
+  margin: auto;
+  width: 640px;
+}
+.panel-heading{
+  margin: 0;
+}
+agm-map  {
+  height: 300px;
+  width: 300px;
+  margin: auto ;
+
+}
+
+.smallbox{
+  height: 300px;
+  padding: auto;
+  width: 340px;
+}
+form{
+  float : right;
+ width: 230px;  
+}
+.searchLocation{
+  margin: auto;
+  margin-left: 5px;
+ width: 230px;
+}
+}
+
+
+}
+
