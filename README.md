@@ -18,6 +18,10 @@ $ ionic start myBlank blank
 Then, to run it, cd into `myBlank` and run:
 
 ```bash
+  ionic  serve
+  ionic cordova run android
+  ionic cordova run android
+  
 $ ionic cordova platform add ios
 $ ionic cordova run ios
 ```
